@@ -14,6 +14,12 @@
 3. 导入 Mihomo / Clash Meta 客户端。
 4. 如需 TUN 透明代理，在客户端 UI 中开启，或把 `tun.enable` 改为 `true`。
 
+## 小火箭配置
+
+`shadowrocket-lazycat.conf` 是同一套逻辑迁移到 Shadowrocket / 小火箭后的版本。
+
+小火箭建议不要把订阅 token 写进配置文件。请先在 App 里添加节点订阅，并把订阅名称设为 `Airport_01`。如果你的订阅名称不同，请在 `shadowrocket-lazycat.conf` 里全局替换 `Airport_01`。
+
 ## 懒猫微服检查
 
 配置生效后可以检查：
